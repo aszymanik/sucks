@@ -15,12 +15,12 @@ except FileNotFoundError:
 
 setup(
     name='sucks',
-    version='0.9.6',
+    version='0.9.7',
 
     description='an abandoned library for controlling certain robot vacuums',
     long_description=long_description,
 
-    url='https://github.com/wpietri/sucks',
+    url='https://github.com/aszymanik/sucks',
 
     # Author details
     author='William Pietri',
@@ -63,7 +63,7 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
 
     install_requires=[
-        'sleekxmppfs>=1.3.4',
+        'sleekmqttfs @ https://github.com/aszymanik/SleekXMPP/releases/tag/sleek-1.4.1',
         'click>=6',
         'requests>=2.18',
         'pycryptodome>=3.4',
