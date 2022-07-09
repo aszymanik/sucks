@@ -70,6 +70,9 @@ setup(
         'pycountry-convert>=0.5',
         'stringcase>=1.2'
     ],
+     dependency_links=[
+      'git+https://github.com/aszymanik/SleekXMPP.git@sleek-1.4.1#egg=sleekxmppfs'
+    ],
 
     # List additional groups of dependencies here (e.g. development
     # dependencies). You can install these using the following syntax,
