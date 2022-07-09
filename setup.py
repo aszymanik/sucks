@@ -63,7 +63,7 @@ setup(
     # https://packaging.python.org/en/latest/requirements.html
 
     install_requires=[
-        'sleekxmppfs @ git+https://github.com/aszymanik/SleekXMPP@develop',
+        'sleekxmppfs @ git+https://github.com/aszymanik/SleekXMPP.git@sleek-1.4.1#egg=sleekxmppfs',
         'click>=6',
         'requests>=2.18',
         'pycryptodome>=3.4',
